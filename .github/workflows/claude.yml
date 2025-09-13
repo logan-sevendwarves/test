@@ -5,9 +5,8 @@ on:
     types: [opened, synchronize]
     paths:
       # Only run when specific paths are modified
-      - "src/**/*.js"
-      - "src/**/*.ts"
-      - "api/**/*.py"
+      - "*.js"
+      - "*.py"
       # You can add more specific patterns as needed
 
 jobs:
